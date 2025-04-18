@@ -29,7 +29,7 @@ function getPictures(apiKey) {
     return new Promise((succses, failed) => {
         if(!apiKey) failed("no apikey")
             setTimeout(() => {
-            succses ({pic : pictures})
+            succsescd ({pic : pictures})
         }, 1500)
     })
     
